@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.activity.BiografiaAutorActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/miActionBar"
+        layout="@layout/action_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margenGeneral">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margenTituloBiografia"
+            android:text="@string/tituloBiografia"
+            android:textSize="@dimen/textoTituloBiografia"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombreBiografia"
+            android:textSize="@dimen/textoBiografia"
+            android:layout_marginBottom="@dimen/margenBottomTextBiografia"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fechaNacimientoBiografia"
+            android:textSize="@dimen/textoBiografia"
+            android:layout_marginBottom="@dimen/margenBottomTextBiografia"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/residenciaBiografia"
+            android:textSize="@dimen/textoBiografia"
+            android:layout_marginBottom="@dimen/margenBottomTextBiografia"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/educacionBiografia"
+            android:textSize="@dimen/textoBiografia"
+            android:layout_marginBottom="@dimen/margenBottomTextBiografia"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

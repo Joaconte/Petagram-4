@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="pFoto">Foto</string>
+    <string name="pNombre">Nombre</string>
+    <string name="pCantidadDeMeGusta">X</string>
+
+    <!-- MENU -->
+    <string name="opcionContacto">Contacto</string>
+    <string name="opcionAcercaDe">Acerca De</string>
+
+
+    <!--  BIOGRAFIA  -->
+    <string name="tituloBiografia">Biografía autor</string>
+    <string name="nombreBiografia">Nombre: Vincent van Gogh</string>
+    <string name="fechaNacimientoBiografia">Fecha de nacimiento: 30 de marzo de 1853, Zundert, Países Bajos</string>
+    <string name="residenciaBiografia">Residencia: Monasterio de Saint-Paul-de-Mausole</string>
+    <string name="educacionBiografia"> Educación: Real Academia de Bellas Artes de Amberes (1886–1886), Colegio Willem II (1866–1868)</string>
+
+    <!-- FORMULARIO -->
+    <string name="formularioNombre">Nombre</string>
+    <string name="formularioEmail">Email</string>
+    <string name="formularioComentario">Comentario</string>
+    <string name="formularioBoton">Enviar Comentario</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/cvMargen"
+    android:layout_marginLeft="@dimen/cvMargen"
+    android:layout_marginRight="@dimen/cvMargen"
+    cardView:cardCornerRadius="@dimen/cornerRadiusCardView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tamanioImagen"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/mono" />
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/ibtnLike"
+                android:layout_width="@dimen/tamanioIconos"
+                android:layout_height="@dimen/tamanioIconos"
+                android:src="@drawable/hueso"/>
+
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pNombre"
+                android:textSize="@dimen/textoCardView"
+                android:textStyle="bold"
+                android:layout_toEndOf="@id/ibtnLike"
+                android:layout_toRightOf="@id/ibtnLike" />
+
+            <TextView
+                android:id="@+id/tvCantidadDeMeGusta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pCantidadDeMeGusta"
+                android:textSize="@dimen/textoCardView"
+                android:layout_toLeftOf="@id/imgHuesoAmarillo"
+                android:layout_toStartOf="@id/imgHuesoAmarillo" />
+
+
+            <ImageView
+                android:id="@+id/imgHuesoAmarillo"
+                android:layout_width="@dimen/tamanioIconos"
+                android:layout_height="@dimen/tamanioIconos"
+                android:src="@drawable/hueso_amarillo"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

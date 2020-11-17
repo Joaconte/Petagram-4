@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cvMargen">20dp</dimen>
+    <dimen name="cornerRadiusCardView">4dp</dimen>
+    <dimen name="tamanioImagen">200dp</dimen>
+    <dimen name="textoCardView">30sp</dimen>
+    <dimen name="tamanioIconos">40dp</dimen>
+    <dimen name="elevacionActionBar">4dp</dimen>
+    <dimen name="textoTituloBiografia">42sp</dimen>
+    <dimen name="textoBiografia">20sp</dimen>
+    <dimen name="margenTituloBiografia">15dp</dimen>
+    <dimen name="margenGeneral">10dp</dimen>
+    <dimen name="margenBottomTextBiografia">4dp</dimen>
+    <dimen name="cvfMargen">7dp</dimen>
+</resources>
